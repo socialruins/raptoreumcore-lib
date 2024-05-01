@@ -120,8 +120,6 @@
   },
   "homepage": "https://github.com/socialruins/raptoreumcore-lib",
   "dependencies": {
-    "@dashevo/x11-hash-js": "^1.0.2",
-    "@types/node": "^12.12.47",
     "bindings": "^1.5.0",
     "bloom-filter": "^0.2.0",
     "bls-signatures": "^0.2.5",
@@ -130,16 +128,17 @@
     "elliptic": "^6.5.4",
     "inherits": "=2.0.1",
     "lodash": "^4.17.20",
+    "node-multi-hashing": "github:raptoracle/node-multi-hashing",
     "ripemd160": "^2.0.2",
     "unorm": "^1.6.0"
   },
   "devDependencies": {
+    "@types/node": "^12.12.47",
     "assert-browserify": "^2.0.0",
     "brfs-node-15": "^2.0.3",
     "buffer": "^6.0.3",
     "chai": "^4.2.0",
     "crypto-browserify": "^3.12.0",
-    "cryptonight-hashing": "github:socialruins/node-gr-hashing",
     "eslint": "^7.27.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^8.3.0",
@@ -163,7 +162,6 @@
     "terser-webpack-plugin": "^4.1.0",
     "transform-loader": "^0.2.4",
     "url": "^0.11.0",
-    "wasm-x11-hash": "^0.0.2",
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.0"
   },

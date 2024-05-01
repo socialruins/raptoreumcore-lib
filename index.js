@@ -8,16 +8,16 @@ var bitcore = module.exports;
 
 // module information
 bitcore.version = 'v' + require('./package.json').version;
-bitcore.versionGuard = function (version) {
-  if (version !== undefined) {
-    var message =
-      'More than one instance of raptoreumcore-lib found. ' +
-      'Please make sure that you are not mixing instances of classes of the different versions of raptoreumcore.';
-    console.warn(message);
-  }
-};
-bitcore.versionGuard(global._dashcore);
-global._dashcore = bitcore.version;
+//bitcore.versionGuard = function (version) {
+//  if (version !== undefined) {
+//    var message =
+//      'More than one instance of raptoreumcore-lib found. ' +
+//      'Please make sure that you are not mixing instances of classes of the different versions of raptoreumcore.';
+//    console.warn(message);
+//  }
+//};
+//bitcore.versionGuard(global._dashcore);
+//global._dashcore = bitcore.version;
 
 // crypto
 bitcore.crypto = {};
